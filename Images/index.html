@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personnel Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/1aaddb5ef1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!-- <img src="logo.png" alt="logo" class="logo"> -->
+       
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">Portfolio</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars hamburger" onclick="openmenu"></i>
+    </nav>
+    </div>
+    <div class="header-text">
+        <p>Frontend Developer</p>
+        <h1>Hi, I'm<br><span style="color: brown;">Mohammad</span> Raza Azad</h1>
+    </div>
+</div>
+
+<!-- ----------------ABOUT SECTION------------------ -->
+
+
+<div id="about">
+  <div class="container">
+     <div class="row">
+    <div class="about-col-1">
+        <img src="Raza_img3.png" alt="">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>Motivated commerce graduate with strong analytical skills. Seeking IT support role with programming knowledge (Java,HTML,
+            CSS,Javascript,React-js) and hardware/software troubleshooting experience. Eager to transition into the technology field.</p>
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Computer Skills</span><br>Java,HTML, CSS, Javascript</li>
+            <li><span>Software Package</span><br>Bootstrap, React</li>
+            <li><span>Additional Course Taken</span><br>Data Structure</li>
+            <li><span>Soft Skills</span><br>Decision-making, Creativity,Teamwork,Communication Skills</li>
+            <li><span>Others</span><br>Accounting</li>
+
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ul>
+            <li><span>Newton School</span><br>Trainee</li>
+            <!-- <li><span>Web Development</span><br>Designing Web/App interfaces</li> -->
+            <li><span>Currently Learning</span><br>Language-DSA,java <br>Programming-HTML,CSS,JAVASCRIPT,REACT-js</li>
+
+        </ul>
+    </div>
+    <div class="tab-contents" id="education">
+        <ul>
+            <li><span>Bachelor of Commerce</span><br>Aligarh Muslim University(2022)<br>7.24/10.0</li>
+            <li><span>Intermediate(XII)</span><br>Aligarh Muslim University(2018)<br>6.92/10.0</li>
+            <li><span>Matriculation(class X)</span><br>Aligarh Public School(2016)<br>7.4/10.0</li>
+
+        </ul>
+    </div>
+    </div>
+     </div>
+  </div>
+</div>
+
+
+<!-- ----------services---------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web Designing</h2>
+            <p>Transforming Ideas into Stunning Websites: Let's create a captivating online presence for your business. I specialize in crafting visually appealing and user-friendly websites using the latest technologies like HTML, CSS, and JavaScript. Together, we'll bring your vision to life and engage your audience effectively.</p>
+            <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Frontend</h2>
+            <p>Elevate Your User Experience: As a frontend developer, I excel in crafting seamless and responsive user interfaces that leave a lasting impression. Whether it's building interactive web applications or optimizing existing designs, my expertise in HTML, CSS, and React will ensure a smooth and delightful user experience.</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2>UI/UX Design</h2>
+            <p>Designing Experiences that Resonate: User experience is at the heart of what I do. Collaborate with me to create visually stunning UI designs that not only captivate users but also elevate the overall experience. From wireframes to pixel-perfect mockups, let's make your product stand out.</p>
+            <a href="#">learn more</a>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- ---------Porfilio-------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="./work-1.png" alt="">
+            <div class="layer">
+                <h3>IMAGE-SEARCH</h3>
+                <p><b style="color:black;">Features</b><br>This project is a responsive image search application that uses the Unsplash API. It allows users to search for images based
+                    on input, displaying results in a grid format with image previews and links to the source. The page offers a visually appealing.
+                    and user-friendly experience <br><b style="color:black;">Tecg stack used</b><br>HTML,CSS,JAVA-SCRIPT <br><b style="color:black;">Description</b><br>Responsive image search app using Unsplash API. Users enter search queries, view image previews, and click links to the
+                    source. Visually appealing and user-friendly interface</p>
+                <a href="https://seachimages.netlify.app/"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+
+        <div class="work">
+            <img src="./work-2.png" alt="">
+            <div class="layer">
+                <h3>Food Project</h3>
+                <p><b style="color:black;">Features</b><br>Engaging web page project featuring fixed header, interactive navigation, dynamic elements, image animations, and various
+                    sections displaying content like specialities, gallery, reviews, and an order form <b style="color:black;"><br>Tech stack used</b><br>HTML,CSS,JAVASCRIPT <br><b style="color:black;">Description</b> <br>This project is a captivating web page with a fixed header, interactive navigation, dynamic elements, image animations, and
+                    multiple sections showcasing specialties, popular items, steps, gallery, reviews, and an order form. Leveraging HTML, CSS,
+                    and JavaScript for an immersive user experience.</p>
+                    <a href="https://razadhaba.netlify.app/"><i class="fa-solid fa-link"></i></a>            </div>
+        </div>
+
+        <div class="work">
+            <img src="./work-3.png" alt="">
+            <div class="layer">
+                <h3>This project coming soon...</h3>
+                <p>Lorem ipsum dolor sit amet.....</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        
+    </div>
+
+    <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!-- -------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mohammadrazaamu@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8532061607</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100010666504925" ><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/azadraza007"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/azadraza007/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+
+                </div>
+                <a href="./Resume-MOHAMMAD Raza.pdf" download class="btn btn2">Download cv</a>
+
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="name" id="" placeholder=" Your Name" required>
+                    <input type="email" placeholder="Enter your e-mail" required>
+                    <textarea name="Message" id="" rows="6" placeholder=" Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Summit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>copyright @ Made with <i class="fa-regular fa-heart"></i> by Mohammad Raza Azad</p>
+    </div>
+</div>
+
+
+<script src="./engine.js"></script>
+
+</body>
+</html>
